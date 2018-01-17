@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * @author Payton Green
  */
-
 public class C3_14 {
 
     /**
@@ -15,7 +14,6 @@ public class C3_14 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         double computerGuess = (int) (Math.random() * 2);
         System.out.print("Enter 0 or 1, 0 being heads and 1 being tails: ");

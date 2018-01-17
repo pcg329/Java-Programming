@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  * @author Payton Green
  */
-
 public class P3 {
 
     /**
