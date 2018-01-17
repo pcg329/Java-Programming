@@ -8,7 +8,6 @@ import java.util.Scanner;
  *
  * @author Payton Green
  */
-
 public class C3_33 {
 
     /**
@@ -16,7 +15,6 @@ public class C3_33 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         System.out.print("Enter weight and price for package 1: ");
         System.out.print("Enter weight and price for package 2:");
