@@ -19,10 +19,7 @@ public class C7_9 {
         
         
     }
-    /**
- * @param double[] array
- * @returns minimum
- */
+
     public static double min(double[] array){
     double best = 0;
         

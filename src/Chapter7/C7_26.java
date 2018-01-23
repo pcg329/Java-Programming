@@ -35,10 +35,7 @@ public class C7_26 {
         }
 
     }
-/**
- * @param int[] list1, int[] list2
- * @returns java.util.Arrays.equals(list1, list2) 
- */
+
     public static boolean equals(int[] list1, int[] list2) {
         return java.util.Arrays.equals(list1, list2);
     }

@@ -37,14 +37,6 @@ public class C7_1 {
             System.out.println("Student " + i + " score is " + grades[i] + " and grade is " + grade(grades[i], best));
         }
     } 
-
- /**
- * @param int score, int best
- * @returns A,B,C,D,F
- */
-  
-    
-    
     public static char grade(int score, int best) {
         if (score >= best - 10) {
             return 'A';
