@@ -42,7 +42,7 @@ public class P7 {
 /**
  * Averages the total for the numbers in the array
  * @param array the variable name for the array
- * @return 
+ * @return total of the array divided by the length of the array
  */
     public static int average(int array[]) {
         int total = 0;
@@ -53,7 +53,7 @@ public class P7 {
     }
 /**
  * Prints out array
- * @param array 
+ * @param array stores the numbers inputed by the user
  */
     public static void printarray(int array[]) {
         Scanner input = new Scanner(System.in);
