@@ -3,7 +3,7 @@ package Chapter7;
 import java.util.Scanner;
 /**
  *Program to display the minimum number in a list of 10 numbers to the console
- * @author pg1002773
+ * @author Payton Green
  */
 public class C7_9 {
  /**
@@ -19,7 +19,11 @@ public class C7_9 {
         
         
     }
-
+/**
+ * 
+ * @param array
+ * @return 
+ */
     public static double min(double[] array){
     double best = 0;
         
