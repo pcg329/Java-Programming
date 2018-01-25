@@ -28,8 +28,8 @@ public class P7 {
         System.out.println(java.util.Arrays.toString(array));
     }
 /**
- * 
- * @param array 
+ * The user inserts numbers into the array
+ * @param array the variable name for the array
  */
     public static void insertnumbers(int array[]) {
         Scanner input = new Scanner(System.in);
@@ -40,8 +40,8 @@ public class P7 {
     }
 //Average the numbers
 /**
- * 
- * @param array
+ * Averages the total for the numbers in the array
+ * @param array the variable name for the array
  * @return 
  */
     public static int average(int array[]) {
@@ -52,7 +52,7 @@ public class P7 {
         return total / array.length;
     }
 /**
- * 
+ * Prints out array
  * @param array 
  */
     public static void printarray(int array[]) {

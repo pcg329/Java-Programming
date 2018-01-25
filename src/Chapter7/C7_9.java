@@ -20,9 +20,9 @@ public class C7_9 {
         
     }
 /**
- * 
- * @param array
- * @return 
+ * Finds the minimum number within the numbers inputed by the user
+ * @param array stores the numbers inputed by the user
+ * @return the minimum number o fall the numbers inserted by the user
  */
     public static double min(double[] array){
     double best = 0;

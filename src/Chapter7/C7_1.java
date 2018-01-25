@@ -38,10 +38,10 @@ public class C7_1 {
         }
     } 
     /**
-     * 
-     * @param score
-     * @param best
-     * @return 
+     * returns a letter if the grade is within those parameters
+     * @param score the percentage of the students
+     * @param best  the grade for the students
+     * @return a letter grade
      */
     public static char grade(int score, int best) {
         if (score >= best - 10) {

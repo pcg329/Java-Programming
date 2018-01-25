@@ -36,9 +36,9 @@ public class C7_26 {
 
     }
 /**
- * 
- * @param list1
- * @param list2
+ * If the two lists are equal, return them to the first string, otherwise return them to the second string
+ * @param list1 
+ * @param list2 
  * @return 
  */
     public static boolean equals(int[] list1, int[] list2) {
