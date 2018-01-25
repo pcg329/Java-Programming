@@ -8,7 +8,6 @@ import java.util.Scanner;
  *
  * @author Payton Green
  */
-
 public class P7 {
 
     /**
@@ -27,10 +26,12 @@ public class P7 {
         System.out.println("The average of the array is:" + average(array));
         System.out.println(java.util.Arrays.toString(array));
     }
-/**
- * The user inserts numbers into the array
- * @param array the variable name for the array
- */
+
+    /**
+     * The user inserts numbers into the array
+     *
+     * @param array the variable name for the array
+     */
     public static void insertnumbers(int array[]) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the numbers into the array:");
@@ -39,11 +40,13 @@ public class P7 {
         }
     }
 //Average the numbers
-/**
- * Averages the total for the numbers in the array
- * @param array the variable name for the array
- * @return total of the array divided by the length of the array
- */
+
+    /**
+     * Averages the total for the numbers in the array
+     *
+     * @param array the variable name for the array
+     * @return total of the array divided by the length of the array
+     */
     public static int average(int array[]) {
         int total = 0;
         for (int i : array) {
@@ -51,10 +54,12 @@ public class P7 {
         }
         return total / array.length;
     }
-/**
- * Prints out array
- * @param array stores the numbers inputed by the user
- */
+
+    /**
+     * Prints out array
+     *
+     * @param array stores the numbers inputed by the user
+     */
     public static void printarray(int array[]) {
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < array.length; i++) {

@@ -1,7 +1,8 @@
-
 package Chapter8;
+
 /**
  * Program to display a chart of hours done by 8 employees to the console
+ *
  * @author Payton Green
  */
 public class C8_4 {
@@ -45,4 +46,3 @@ public class C8_4 {
         }
     }
 }
-
