@@ -2,7 +2,7 @@ package Chapter4;
 
 import java.util.Scanner;
 
-/*
+/**
  *Program to display which bidder is better to hire 
  *
  * @author Payton Green
